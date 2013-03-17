@@ -1,0 +1,35 @@
+
+<style>
+
+ol, ul,li {
+	list-style: none outside none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a:link, a:visited {
+	color: #A5B0BC;
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+
+</style>
+
+<div id="model-crud-container"></div>
+
+<script type="text/javascript">
+$().ready(function() 
+{  
+	$.ajaxSettings.async = false;
+	
+$.fn.jModelCrud({renderTo:"#model-crud-container"});
+});
+	</script>
+
+
+

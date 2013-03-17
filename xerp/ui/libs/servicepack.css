@@ -1,0 +1,33 @@
+#tabs2 li .ui-icon-close {
+    float: left;
+    margin: 0.4em 0.2em 0 0;
+    cursor: pointer;
+}
+
+.close {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.ui-buttonset .ui-button {
+    margin-right: -0.8em;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+    margin-bottom: 0px;
+    height: 25px;
+color: #000000;
+}
+
+.ui-tabs .ui-tabs-nav {
+    border-bottom: 1px solid red;
+
+}
+
+.ui-tabs .ui-tabs-nav li:hover, .ui-tabs .ui-tabs-nav li a:hover{
+  border-bottom:1px solid red;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 1px;
+}

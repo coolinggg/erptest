@@ -1,0 +1,55 @@
+.title-menu
+{
+    
+	height:50px;
+}
+.title-menu a
+{
+
+	color: #fff;
+}
+.title-menu a:hover
+{
+
+	color:#D9ddde;
+}
+.title-menu li
+{
+
+	line-height:30px;
+}
+.title-menu-item
+{
+	padding-bottom: 8px; padding-top:9px; 
+	border-bottom: 3px solid  #141A1B;
+	float:left;
+	margin-left:25px;
+
+}
+.title-menu-item:hover
+{
+	color:#D9ddde;
+
+}
+.current
+{
+	color:#D9ddde;
+	border-bottom: 3px solid  #FE1B74;
+}
+
+.title-menu-text
+{
+	display: inline-block;
+	height: 25px; 
+	line-height:25px; 
+    vertical-align:middle;
+	font-size: 15px;
+	margin-left: -6px;
+}
+.icon
+{
+	height: 26px; 
+	vertical-align:middle;
+	margin-top:-6px;
+
+}
